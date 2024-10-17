@@ -1,6 +1,9 @@
-<?php include('./include/head.php') ?>
-<main class="inner-pages services">
-  <section class="banner inner-banner contact-banner">
+<?php
+$pageTitle = 'Contact - Diligenttek';
+include('./include/head.php') ?>
+<main class="inner-pages services main-layout">
+  <section class="banner inner-banner contact-banner flex-column">
+    <?php include('./include/sm-header.php') ?>
     <div class="container custom-container-lg">
       <div class="banner-content">
         <div class="row">
@@ -8,7 +11,7 @@
             <h1 class="text-white mb-0 pb-20">
               Contact Us
             </h1>
-            <span class="text-center justify-content-center breadcrumb fs-25 text-white fw-700"><a class="text-white" href="./">Home <i class="fa-solid fa-chevron-right"></i></a>Contact Us</span>
+            <span class="text-center justify-content-center breadcrumb fs-20 text-white fw-700"><a class="text-white" href="./">Home <i class="fa-solid fa-chevron-right"></i></a>Contact Us</span>
           </div>
         </div>
       </div>
@@ -19,9 +22,9 @@
     <div class="container">
       <div class="row row-gap-30 justify-content-between">
         <div class="col-lg-5">
-          <div class="d-flex gap-25 mb-24">
+          <div class="d-flex gap-25 mb-24 flex-wrap">
             <div>
-              <img src="./assets/images/contact-icon-01.png" class="contact-icon" alt="">
+              <img src="./assets/images/chat.svg" class="contact-icon" alt="Diligenttek | Contact | Contact">
             </div>
             <div>
               <h4 class="text-black fs-24 fw-700 mb-15">Chat with us</h4>
@@ -30,25 +33,36 @@
               </p>
             </div>
           </div>
-          <div class="d-flex gap-25 mb-24">
+          <div class="d-flex gap-25 mb-24 flex-wrap">
             <div>
-              <img src="./assets/images/contact-icon-02.png " class="contact-icon" alt="">
+              <img src="./assets/images/call.svg" class="contact-icon" alt="Diligenttek | Contact | Contact">
             </div>
             <div>
               <h4 class="text-black fs-24 fw-700 mb-15">Give us a call</h4>
               <p class="fs-18 text-black">
-                QGive us a ring at (+088-234-567-90). Every monday-friday from 9 am to 5 pm.
+                QGive us a ring at <a href="tel:(021) 349 91546" class="link-hover primary-text">(021) 349 91546</a>. Every monday-friday from 9 am to 5 pm.
               </p>
             </div>
           </div>
-          <div class="d-flex gap-25 mb-24">
+          <div class="d-flex gap-25 mb-24 flex-wrap">
             <div>
-              <img src="./assets/images/contact-icon-03.png " class="contact-icon" alt="">
+              <img src="./assets/images/email.svg" class="contact-icon" alt="Diligenttek | Contact | Contact">
             </div>
             <div>
               <h4 class="text-black fs-24 fw-700 mb-15">Email Us</h4>
               <p class="fs-18 text-black">
-                Drop us an email at example@gmail.com and you'll receive a reply within 24 hours.
+                Drop us an email at <a href="mailto:hr@diligenttek.com" class="link-hover primary-text">hr@diligenttek.com</a> and you'll receive a reply within 24 hours.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex gap-25 mb-24 flex-wrap">
+            <div>
+              <img src="./assets/images/contact-location.svg" class="contact-icon" alt="Diligenttek | Contact | Contact">
+            </div>
+            <div>
+              <h4 class="text-black fs-24 fw-700 mb-15">Address</h4>
+              <p class="fs-18 text-black">
+              33, Block 4 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh 75300
               </p>
             </div>
           </div>
@@ -109,7 +123,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28939.811261184448!2d67.0840870675331!3d24.94990089448397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s33%2C%20Block%204%20Gulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2075300!5e0!3m2!1sen!2s!4v1727462727867!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28939.811261184448!2d67.0840870675331!3d24.94990089448397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s33%2C%20Block%204%20Gulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2075300!5e0!3m2!1sen!2s!4v1727462727867!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

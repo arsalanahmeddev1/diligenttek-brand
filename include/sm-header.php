@@ -1,8 +1,8 @@
 <header class="d-block d-lg-none">
   <div class="container">
     <div class="row justify-content-between align-items-center">
-      <div class="col-3">
-        <img src="./assets/images/logo-light.png" class="md-logo" alt="">
+      <div class="col-5">
+        <a href="./"><img src="./assets/images/logo-light.webp" class="md-logo" alt=""></a>
       </div>
       <div class="col-3">
         <ul class="social-links d-flex gap-30 mb-0  align-items-center justify-content-between">
